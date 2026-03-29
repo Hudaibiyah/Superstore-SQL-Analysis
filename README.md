@@ -20,3 +20,8 @@ The goal of this project was to transition from Excel-based reporting to a struc
 * **Filtering:** HAVING clause for aggregated results.
 * **Date Formatting:** MONTHNAME() and YEAR() extractions.
 * **Joins:** Self-joins for Year-over-Year growth analysis.
+
+## ⚙️ How to Use This Project
+1. Import the `superstore_sample_raw.csv` into a MySQL database via phpMyAdmin or MySQL Workbench.
+2. Ensure the `order_date` column is set to the **DATE** type.
+3. Run the queries found in `analysis_queries.sql` to generate the business reports.
